@@ -1,16 +1,26 @@
-#texto-fonte-root{
+*{
+    margin: 0;
+    padding: 0;
+}
 
+
+#texto-fonte-root{
+    font-size: 3rem; /*3x em relação ao elemento raiz (ou fonte - O PADRÃO DO CSS É 16PX )*/
+ 
 }
 
 #texto-paddings-verticais{
+    padding: 2em 0; /*2x em  relação ao elemento fonte*/
 
 }
 
 #altura-porcentagem-comprimento{
+    height: 20vw; /*exeplos para mostrar que sua altura pode ocupar largura, mas quase não será usado */
 
 }
 
 #comprimento-metade-altura{
+    width: 50vh; /*exeplos para mostrar que sua largura pode ocupar altura, mas quase não será usado */
 
 }
 
@@ -21,13 +31,15 @@
 }
 
 #fonte-setenta{
-
+    font-size: 0.7em;
+    font-size: 70%; /*tbm pode ser escrito dessa maneira, o % sempre se refere ao elemento pai.*/
 }
 
 #comprimento-pai{
-
+    width: 10%;
 }
 
 #altura-pai{
-
+    height: 10%;
+    
 }
